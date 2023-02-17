@@ -1,0 +1,671 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+#main-header{
+   
+   /* position: fixed; */
+  
+}
+.container{
+    top: 0;
+    position: fixed;
+    display: flex;
+    box-shadow: 4px 4px 4px 4px rgb(57, 58, 59);
+    max-width: 100%;
+    height: 12vh;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(112, 143, 180);
+    
+}
+.logo h1{
+    
+    font-size: 2.5rem;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+    
+}
+.logo{
+    flex-basis: 30%;
+    
+}
+nav{
+    flex: 1;
+    text-align: center;
+    flex-basis: 60%;
+    
+    
+   
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 2%;
+}
+
+li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(242, 235, 242);
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+
+
+}
+
+li a:hover{
+    background: linear-gradient(to left,rgb(51, 170, 203) ,rgb(250, 246, 246));
+    transform: scale();
+    font-weight: bold;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 20%;
+    transition: all ease-in-out 0.3s;
+    color: white;
+
+}
+.burger{
+    
+  
+    flex-basis: 10%;
+    /* border: 2px solid red; */
+    
+    
+}
+.burger img{
+    width: 30px
+   
+}
+
+
+
+.img img{
+    width: 100%;
+}
+.input{
+    display: none;
+}
+
+.links{
+    display: none;
+    width: 24%;
+    height: 70%;
+    position: fixed;
+    top: 12%;
+    right: 0;
+    
+    background-color: rgb(112, 143, 180);
+    
+    border-radius: 10px;
+}
+
+#hamburger:checked~ .links{
+    display: block;
+}
+
+.logo p{
+    
+    font-size: 1.6rem;
+    color: white;
+    padding: 3%;
+}
+.links h2{
+    color: white;
+    padding: 10%;
+  
+}
+.social-links img{
+    width: 55px;
+
+    /* padding: 3%; */
+    
+    
+
+}
+
+.text{
+    /* font-size: larger; */
+    /* font-size: 3rem; */
+   padding: 150px 0 0;
+    
+    text-align: center;
+}
+.text h3{
+    font-size: 2.2rem;
+    color: chocolate;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+.text h1{
+    font-size: 4rem;
+}
+.text h2{
+    font-size: 2.2rem;
+}
+.text h2 span{
+    color: rgb(3, 182, 3);
+}
+.text img{
+    width: 45%;
+}
+.text p{
+    font-size: 2rem;
+}
+
+
+#section-2{
+    background-color:rgba(234, 242, 251, 0.967);
+    
+}
+
+.section-container {
+ padding: 4%;
+ 
+ 
+ 
+}
+.section-container h2{
+    color:  chocolate;
+    font-size: 2.5em;
+    padding: 7px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.section-container h1{
+    font-size: 4rem;
+    padding: 7px;
+}
+.section-container h1 span{
+    background-color: rgb(112, 143, 180);
+    
+}
+.section-container   p{
+   font-size: 1.6rem;
+   padding: 7px;
+}
+.list ul{
+    
+    font-weight: bolder;
+    padding: 7px;
+}
+.list ul li{
+    padding-top: 30px;
+    font-size: 2.4rem;
+}
+.section-container a {
+    font-size: 2rem;
+    text-decoration: none;
+    color:  chocolate;
+
+}
+.section-container  img{
+    padding-top: 40px;
+    width: 30px;
+    /* color: blue; */
+   
+}
+
+/* section ends */
+#section-3{
+    background-color:rgba(243, 245, 248, 0.541);
+    
+    
+}
+
+.section-container2 {
+ padding: 7%;
+ /* text-align: center; */
+ 
+ 
+ 
+}
+div.list2 ul li {
+    display: flex;
+    align-items:  center;
+    justify-content: flex-start;
+}
+.section-container2 h2{
+    color:  chocolate;
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.section-container2 h1{
+    font-size: 4.5rem;
+    padding: 10px;
+}
+.section-container2 h1 span{
+   background-color:   rgb(112, 143, 180);
+    
+}
+.section-container2   p{
+   font-size: 1.8rem;
+   padding: 10px;
+}
+.list2 ul{
+    
+    font-weight: 100px;
+    padding: 10px;
+}
+.list2 ul li{
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+
+/* .align-progress-bar{
+    width: 400px;
+    border: 2px solid rgb(17, 17, 20);
+    padding: 2px;
+    background-color: rgb(31, 22, 189);
+    height: 2vh;
+    text-align: center;
+   
+
+} */
+.progress-bar1{
+    width: 450px;
+    border: 1px solid rgb(249, 249, 254);
+    padding: 4px;
+    background-color: rgb(112, 143, 180);
+    height: 1vh;
+    /* margin-left: 36%; */
+   margin-top: 15px;
+   border-radius: 20px;
+   
+}
+
+.progress-bar2{
+    width: 450px;
+    border: 1px solid rgb(249, 249, 254);
+    padding: 4px;
+    background-color: rgb(112, 143, 180);
+    height: 1vh;
+    /* margin-left: 36%; */
+    
+   margin-top: 15px;
+   border-radius: 20px;
+}
+.progress-bar3{
+    
+    width: 480px;
+    border: 1px solid rgb(249, 249, 254);
+    padding: 4px;
+    background-color:  rgb(112, 143, 180);
+    height: 1vh;
+    /* margin-left: 36%; */
+   margin-top: 15px;
+   border-radius: 20px;
+}
+.progress-bar4{
+    width: 460px;
+    border: 1px solid rgb(249, 249, 254);
+    padding: 4px;
+    background-color: rgb(112, 143, 180);
+    height: 1vh;
+   /* margin-left: 36%; */
+   margin-top: 15px;
+   border-radius: 20px;
+
+}
+
+
+
+
+
+/* section ends */
+
+#section4{
+    background-color:rgba(234, 242, 251, 0.967);
+    border-radius: 15%;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
+    gap: 50px;
+}
+
+.container-grid-img,img {
+    width: 100%;
+}
+
+
+.section-container3{
+    padding: 5%;
+}
+.container-grid-text h2{
+    color:  chocolate;
+    font-size: 2.5rem;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.container-grid-text h1{
+    font-size: 3rem;
+    padding: 5px;
+
+}
+.container-grid-text span{
+    background-color:   rgb(112, 143, 180);
+}
+.container-grid-text p{
+    font-size: 1.4rem;
+    /* padding: 10px; */
+
+}
+.awards{
+    padding: 7%;
+
+}
+.awards ul{
+    font-size: 1.4rem;
+    padding: 4%;
+
+}
+.awards li{
+    color:  rgb(112, 143, 180);
+    /* background-color:  rgb(4, 158, 240); */
+
+}
+.awards h1{
+    font-size: 3rem;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+ /* ends */
+
+ .what-client-say{
+    text-align: center;
+    text-decoration: underline;
+    margin: 3%;
+    color:  chocolate;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+ }
+
+ .containers{
+    width: 100%;
+    padding: 9%;
+    
+ }
+
+ #testimonials-section{
+    /* padding: 150px 0 100px ; */
+
+
+}
+
+.testimonials-containers{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 80px;
+}
+.testimonials{
+    box-shadow: 3px 3px 3px 3px  rgb(112, 143, 180);
+    padding: 35px;
+    border-radius: 20px;
+    
+    
+    /* border-left: 5px chocolate solid; */
+    /* margin-left: 30px; */
+   
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.testimonials:hover{
+   
+    transition-property: transform,background-color,box-shower,border-radius;
+    transition-duration: 3s;
+    /* padding: 14%;
+    /* transform: rotate(360deg); */
+    transform: translateZ(50%); */
+}
+
+.testimonials-containers  img{
+    margin-left: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+
+
+.testimonials h1{
+    margin-left: 30px;
+}
+
+.user-details{
+    margin-left: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size:1.5rem;
+
+}
+.user-details b{
+    font-size: 1.8rem;
+
+}
+.user-details p{
+    font-size: 2rem;
+}
+
+/* ends */
+
+#section-5{
+  padding: 5%;
+   background-color:rgba(234, 242, 251, 0.967);
+}
+.section5-grid{
+ 
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
+    gap: 20px;
+}
+.section5-text h3{
+    font-size: 1.9rem;
+    color: chocolate;
+    padding: 2%;
+
+
+}
+.section5-text h1{
+    font-size: 3rem;
+    padding: 2%;
+
+}
+.section5-text h1 span{
+    background-color:  rgb(112, 143, 180);
+
+}
+.section5-text p{
+    font-size: 1.7rem;
+}
+.section5-img{
+    margin-top: 13%;
+    width: 80%;
+   
+}
+.section5-img-grid img{
+    border-radius: 30%;
+    width: 49%;
+    padding: 2%;
+}
+
+ /* section ends */
+
+.section5-container{
+    /* text-align: center; */
+    padding: 100px;
+    
+
+}
+ .section-5 h3{
+    color: chocolate;
+    font-size: 1.9rem;
+    margin-top: 20px;
+  
+}
+
+.section-5 h1{
+    font-size: 2.3rem;
+    margin-top: 20px;
+    font-family:  monospace;
+}
+.section-5 h1 span{
+    background-color:  rgb(112, 143, 180);
+
+}
+.section5-text p{
+    font-size: 1.8rem  ;
+    margin-top: 20px;
+    
+}
+
+.section5-grid{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 50px; */
+}
+
+.section5-text h2{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    
+}
+
+.details-text img{
+    width: 5%;
+
+}
+.details-text p{
+    display: inline-block;
+}
+
+.details-text{
+    margin-bottom: 3%;
+    margin-top: 3%;
+   
+}
+
+.section5-form{
+   
+    width: 100%;
+    line-height: 7;
+    
+    
+
+}
+.section-5 form .name-email{
+    display: flex;
+    
+    
+}
+.name-email input{
+    width: 300px;
+    padding: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+#subject{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+#textarea{
+    font-size: larger;
+    width: 90%;
+    padding: 10px;
+    resize: none;
+    border-radius: 20px;
+    
+
+}
+
+.section5-form .button1 button{
+    background-color: rgb(112, 143, 180);
+    width: 180px;
+    height: 40px;
+    border-radius: 12px;
+  
+}
+.button1{
+    text-align: right;
+    margin-right: 60px;
+  
+   
+}
+
+
+
+
+.footer-end{
+    text-align: center;
+    border-top: 5px dashed  rgb(112, 143, 180);
+    background-color:  rgb(112, 143, 180);
+}
+.footer-end h2 {
+    /* background-color:  rgb(112, 143, 180); */
+    text-align: center;
+    width: 100%; 
+  }
+  .footer-end h3 {
+    /* background-color:  rgb(112, 143, 180); */
+    text-align: center;
+    width: 100%; 
+  }
+
+
+@media only screen and (max-width 991px){
+    .container nav ul{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        margin-left: 0;
+        max-width: 250px;
+        background-color: aquamarine;
+        transition: all ease-in 0.3s;
+        padding-bottom: 100px;
+    }
+
+
+    .burger i{
+        display: flex;
+        cursor: pointer;
+            
+    }
+
+    nav ul .logo{
+        display: flex;
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+        line-height: 4;
+    }
+    .logo h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
